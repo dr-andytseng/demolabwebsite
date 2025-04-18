@@ -4,9 +4,8 @@ title: Home
 ---
 
 # Welcome to the Moon Laboratory
-##```
-## ![Lab Banner](assets/images/lab-banner.jpg)
-##```
+![Lab Banner](assets/images/.jpg)
+
 
 ## Advancing Molecular and Computational Biology
 
