@@ -2,3 +2,81 @@
 ---
 
 @import "jekyll-theme-tactile";
+
+/* Added by Claude  */
+/* Horizontal Navigation Bar Styling */
+.horizontal-nav {
+  background-color: #303030;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.horizontal-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.horizontal-nav li {
+  float: left;
+}
+
+.horizontal-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.horizontal-nav li a:hover {
+  background-color: #111;
+}
+
+.horizontal-nav .active {
+  background-color: #4CAF50;
+}
+
+/* Team Member Page Styling */
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team-member {
+  width: 45%;
+  margin-bottom: 30px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.team-member img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  margin-top: 0;
+  color: #c5000c;
+}
+
+.team-member p.position {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .team-member {
+    width: 100%;
+  }
+}
