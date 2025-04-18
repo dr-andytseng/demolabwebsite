@@ -1,123 +1,61 @@
 ---
 layout: default
+title: Home
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Welcome to the Smith Laboratory
 
-[Link to another page](./another-page.html).
+![Lab Banner](assets/images/lab-banner.jpg)
 
-There should be whitespace between paragraphs.
+## Advancing Molecular and Computational Biology
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+The Smith Laboratory, established in 2018, combines cutting-edge experimental approaches with computational methods to understand fundamental biological processes. Our interdisciplinary team works at the intersection of epigenetics, genome engineering, and systems biology.
 
-# Header 1
+## Research Highlights
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+### Latest Discovery: Epigenetic Signatures in Cancer Progression
 
-## Header 2
+Our team recently identified a novel set of epigenetic markers that accurately predict treatment response in triple-negative breast cancer. This groundbreaking work, published in Nature Genetics, opens new avenues for personalized medicine approaches.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+[Read more about our research →](research.html)
 
-### Header 3
+### New CRISPR Tool Development
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+We've developed an enhanced CRISPR-Cas9 system with significantly reduced off-target effects. This technology shows promise for both basic research and potential therapeutic applications.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+[View our publications →](publications.html)
 
-#### Header 4
+## News and Updates
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+**April 12, 2025** - Dr. Smith receives prestigious NSF CAREER Award for innovative work in epigenetic editing technologies.
 
-##### Header 5
+**March 28, 2025** - New publication in Nature Genetics reveals predictive biomarkers for cancer therapy response.
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+**February 15, 2025** - The lab welcomes two new PhD students, Alexandra Torres and David Kim.
 
-###### Header 6
+**January 10, 2025** - Our collaborative project on systems biology approaches to cell signaling receives $2.5M NIH grant.
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+**December 5, 2024** - Dr. John Doe presents our latest research at the International Genome Engineering Conference in Tokyo.
 
-### There's a horizontal rule below this.
+## Lab Mission
 
-* * *
+We are committed to:
+- Conducting rigorous, reproducible scientific research
+- Training the next generation of interdisciplinary scientists
+- Developing open-source tools for the scientific community
+- Translating basic discoveries into applications that improve human health
 
-### Here is an unordered list:
+## Collaborations and Partnerships
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+Our work thrives through collaborations with leading research groups worldwide. Current partnerships include teams at Stanford University, Max Planck Institute, University College London, and the National Cancer Institute.
 
-### And an ordered list:
+[Meet our team →](team.html)
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+## Join Our Lab
 
-### And a nested list:
+We're always looking for passionate scientists to join our team. Currently open positions include:
+- Postdoctoral Fellow in Computational Genomics
+- PhD Student positions (Fall 2025)
+- Summer Undergraduate Research Internships
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+[Contact us →](contact.html)
