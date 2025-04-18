@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Welcome to the Smith Laboratory
+# Welcome to the Moon Laboratory
 
 ![Lab Banner](assets/images/lab-banner.jpg)
 
