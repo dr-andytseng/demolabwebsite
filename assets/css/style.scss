@@ -1,30 +1,9 @@
 ---
 ---
-
 @import "jekyll-theme-tactile";
 
 /* Added by Claude  */
 /* Horizontal Navigation Bar Styling */
-/* Add this to your existing CSS file */
-.map-container {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  margin-bottom: 20px;
-}
-
-.map-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
 .horizontal-nav {
   background-color: #303030;
   overflow: hidden;
@@ -43,6 +22,8 @@
 
 .horizontal-nav li {
   float: left;
+  list-style: none;
+  background-image: none !important;
 }
 
 .horizontal-nav li a {
@@ -52,18 +33,23 @@
   padding: 14px 16px;
   text-decoration: none;
   font-weight: bold;
+  background-image: none !important;
 }
 
 .horizontal-nav li a:hover {
   background-color: #111;
 }
 
-.horizontal-nav ul li::before {
-  content: none;  /* Removes any content before list items that might be creating dots */
-}
-
-.horizontal-nav ul li {
-  list-style: none;  /* Alternative way to remove list markers */
+/* More aggressive overrides to remove the dots */
+.horizontal-nav ul li::before,
+.horizontal-nav ul li::after,
+.horizontal-nav li::before,
+.horizontal-nav li::after,
+.horizontal-nav li a::before,
+.horizontal-nav li a::after {
+  content: none !important;
+  display: none !important;
+  background: none !important;
 }
 
 .horizontal-nav .active {
@@ -88,9 +74,12 @@
 
 .team-member img {
   width: 100%;
-  max-width: 200px;
+  max-width: 150px; /* Reduced from 200px to 150px */
   border-radius: 50%;
   margin-bottom: 15px;
+  display: block; /* Ensures proper centering */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-member h3 {
@@ -101,6 +90,26 @@
 .team-member p.position {
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+/* Map container styling */
+.map-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
 
 @media screen and (max-width: 768px) {
