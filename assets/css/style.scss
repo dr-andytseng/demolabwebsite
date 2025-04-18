@@ -58,6 +58,14 @@
   background-color: #111;
 }
 
+.horizontal-nav ul li::before {
+  content: none;  /* Removes any content before list items that might be creating dots */
+}
+
+.horizontal-nav ul li {
+  list-style: none;  /* Alternative way to remove list markers */
+}
+
 .horizontal-nav .active {
   background-color: #4CAF50;
 }
