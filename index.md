@@ -4,9 +4,9 @@ title: Home
 ---
 
 # Welcome to the Moon Laboratory
-
-[] (![Lab Banner](assets/images/lab-banner.jpg))
-
+```
+![Lab Banner](assets/images/lab-banner.jpg)
+```
 ## Advancing Molecular and Computational Biology
 
 The Smith Laboratory, established in 2018, combines cutting-edge experimental approaches with computational methods to understand fundamental biological processes. Our interdisciplinary team works at the intersection of epigenetics, genome engineering, and systems biology.
