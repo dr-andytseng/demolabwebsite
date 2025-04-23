@@ -2,7 +2,18 @@
 ---
 @import "jekyll-theme-tactile";
 
-/* Added by Claude  */
+/* Adjust page width and margins */
+#container {
+  max-width: 90% !important; /* Increase from default (likely 75-80%) */
+}
+
+.inner {
+  max-width: 95% !important; /* Increase inner content width */
+  margin: 0 auto !important; /* Center the content */
+  padding-left: 15px !important; /* Reduce from default padding */
+  padding-right: 15px !important; /* Reduce from default padding */
+}
+
 /* Horizontal Navigation Bar Styling */
 .horizontal-nav {
   background-color: #303030;
