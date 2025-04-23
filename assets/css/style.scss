@@ -10,7 +10,7 @@ body {
 }
 
 #container, .inner, .content-wrapper, #content-wrapper {
-  max-width: 98% !important; /* Increased from 95% to 98% */
+  max-width: 90% !important; /* Increased from 95% to 98% */
   width: 98% !important;
   margin: 0 auto !important;
   padding-left: 1% !important;
@@ -19,7 +19,7 @@ body {
 
 /* Override any potential header/footer width constraints */
 header, footer {
-  width: 90% !important;
+  width: 100% !important;
   max-width: 100% !important;
   padding-left: 1% !important;
   padding-right: 1% !important;
