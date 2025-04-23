@@ -4,14 +4,14 @@
 
 /* More aggressive width controls */
 body {
-  width: 100% !important;
+  width: 95% !important;
   padding: 0 !important;
   margin: 0 !important;
 }
 
 #container, .inner, .content-wrapper, #content-wrapper {
-  max-width: 85% !important; /* Increased from 95% to 98% */
-  width: 85% !important;
+  max-width: 80% !important; /* Increased from 95% to 98% */
+  width: 80% !important;
   margin: 0 auto !important;
   padding-left: 3% !important;
   padding-right: 3% !important;
