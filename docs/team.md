@@ -43,7 +43,7 @@ Meet the talented researchers and staff members who make our work possible.
   </div>
  
   <div class="team-member">
-    <img src="images/photo_yanCui.jpg" alt="Mr. Yan Cui">
+    <img src="{{ site.baseurl }}/assets/images/photo_yanCui.jpg" alt="Mr. Yan Cui">
     <h3>Mr. Yan Cui</h3>
     <p class="position">Research Intern</p>
     <p>&nbsp;</p>
