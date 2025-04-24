@@ -41,7 +41,7 @@ USA
 ## Join Us
 We are always looking for talented and motivated individuals to join our team.
 
-For inquiries about positions, please send your CV and a brief statement of research interests to Dr. Na Sun Smith at nasun@wi.mit.edu.
+For inquiries about positions, please send your CV and a brief statement of research interests to Dr. Na Sun at nasun@wi.mit.edu.
 
 ## Directions
 <div class="map-container">
